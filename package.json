@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Bill Newman",
+  "author": "Katheryn Barreto",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^18.0.6",
@@ -15,10 +15,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/newmanix/routing-with-node-wn23-8.git"
+    "url": "git+https://github.com/KatherynGbarreto/routing-with-node"
   },
   "bugs": {
-    "url": "https://github.com/newmanix/routing-with-node-wn23-8/issues"
+    "url": "https://github.com/KatherynGbarreto/routing-with-node/issues"
   },
-  "homepage": "https://github.com/newmanix/routing-with-node-wn23-8#readme"
+  "homepage": "https://github.com/KatherynGbarreto/routing-with-node/blob/main/README.md"
 }
