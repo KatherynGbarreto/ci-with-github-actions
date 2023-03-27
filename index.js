@@ -1,25 +1,8 @@
-var http = require("http");
-http.createServer(function(req, res) {
+var Calculator = require("./Calculator.js");//.js is optional
 
-  var path = req.url.toLocaleLowerCase();
+var calc = new Calculator();
 
-  switch (path) {
-    case "/":
-      res.writeHead(200, { 'Content-Type': 'text/plain' });
-      res.end('Home Page');
-      break;
+let result = calc.divide(2,3);
 
-    case "/about":
-      res.writeHead(200, { 'Content-Type': 'text/plain' });
-      res.end('About Page');
-      break;
-
-    default:
-      res.writeHead(404, { 'Content-Type': 'text/plain' });
-      res.end('Not Found');
-
-  }
-
-
-}).listen(process.env.PORT || 3000);
+console.log(result);
 
